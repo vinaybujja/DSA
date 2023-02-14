@@ -1,5 +1,5 @@
 //creating a Linked list
-//this program creates linked list with two nodes in it.
+//this program creates linked list with three nodes and traversing it.
 //result - prints value 1 2 3 on screen
 
 #include<iostream>
