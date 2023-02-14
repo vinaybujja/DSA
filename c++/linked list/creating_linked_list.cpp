@@ -1,5 +1,5 @@
 //creating a Linked list
-//this program creates linked list with two nodes in it.
+//this program creates linked list with three nodes in it.
 //result - first(head) node holding value 1 and address of second(first) node
 //second(first) node holding value 2 and address of third(second) node
 //third(second) node which is last node in the list holding value 3 and NULL in pointer as it is last node
