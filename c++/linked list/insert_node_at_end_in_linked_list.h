@@ -1,6 +1,7 @@
 //creating a Linked list
 //this program creates linked list with three nodes, inserting node at the end and traversing it.
 //result - prints value 1 2 3 100 on screen
+//exception - link should not be empty
 
 #include<iostream>
 using namespace std;
