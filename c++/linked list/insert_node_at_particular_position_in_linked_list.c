@@ -60,7 +60,7 @@ int main()
     first->nxt = second;            //connecting first node to second node
     second->val = 3;                //giving value to second node
     second->nxt = NULL;             //allocating NULL value to last(second) node
-    insert(&head, 100,2);           //insertion of element
+    insert(&head, 100, 2);          //insertion of element
     traverse(head);                 //calling traverse function
     return 0;
 }
