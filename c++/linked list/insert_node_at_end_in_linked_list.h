@@ -32,10 +32,8 @@ void insert(node **ptr, int val)
     node *head;
     head = *ptr;
     //finding last node
-    while (true)
+    while (head->nxt != nullptr)
     {
-        if(head->nxt == nullptr)
-        break;
         head = head->nxt;
     }
     node *new_node = new node();     //dynamic memory allocation
