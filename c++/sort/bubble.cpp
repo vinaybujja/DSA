@@ -1,3 +1,10 @@
+/*
+time complexity :
+worst = O(n^2)
+best = O(n)
+space complexity = O(1)
+*/
+
 #include<iostream>
 using namespace std;
 
