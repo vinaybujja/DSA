@@ -3,8 +3,10 @@ using namespace std;
 
 void bubble_sort(int array[], int n)
 {
-    for(int i = 0; i<n; i++)
+    bool swap = true;
+    for(int i = 0; i<n && swap; i++)
     {
+        swap = false;
         for(int j = 0; j<n; j++)
         {
             if(array[j]>array[j+1])
@@ -12,6 +14,7 @@ void bubble_sort(int array[], int n)
                 array[j] += array[j+1];
                 array[j+1] = array[j] - array[j+1];
                 array[j] = array[j] - array[j+1];
+                swap = true;
             }
         }
     }
